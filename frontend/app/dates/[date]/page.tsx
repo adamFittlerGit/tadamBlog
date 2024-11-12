@@ -1,9 +1,15 @@
-import React from 'react'
+'use client';
 
-const page = () => {
+import DateCard from "@/app/components/DateCard"
+
+const Date = () => {
   return (
-    <div>page</div>
+    <div className='flex justify-center'>
+        <div className='m-10 w-full sm:w-3/4 md:w-1/2'>
+            <DateCard />
+        </div>
+    </div>
   )
 }
 
-export default page
+export default Date
